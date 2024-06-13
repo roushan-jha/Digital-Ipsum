@@ -7,7 +7,7 @@ import facebook from '../assets/facebook.png'
 const Footer = () => {
   return (
     <div className='w-full'>
-        <div className='flex bg-white p-12'>
+        <div className='flex bg-slate-100 p-12'>
             <div className='w-2/5 pr-28'>
                 <div className='flex items-center gap-2'>
                     <img src={logo} alt="Logo" />
