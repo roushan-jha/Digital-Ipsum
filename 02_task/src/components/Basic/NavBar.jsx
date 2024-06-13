@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
+import { HashLink } from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -9,11 +11,13 @@ const NavBar = () => {
         <h1 className='font-sora font-semibold text-lg'>PIXELZEN</h1>
       </div>
       <div className='w-2/5 flex gap-8 justify-center items-center font-satoshi font-normal'>
-        <a href="./">Home</a>
-        <a href="./">Services</a>
-        <a href="./">Features</a>
-        <a href="./">About Us</a>
-        <a href="./" className='border-2 border-slate-200 px-3 py-2 rounded-3xl'>Contact Us</a>
+        <HashLink smooth to={"/#home"}>Home</HashLink>
+        <HashLink smooth to={"/#feature"}>Features</HashLink>
+        <HashLink smooth to={"/#service"}>Services</HashLink>
+        <HashLink smooth to={"/#about"}>About Us</HashLink>
+        <Link to={"./"} className='border-2 border-slate-200 px-3 py-2 rounded-3xl'>
+          Contact Us
+        </Link>
       </div>
     </div>
   )

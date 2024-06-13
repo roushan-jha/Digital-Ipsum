@@ -8,7 +8,7 @@ const Home = () => {
     const heading = "We make your business interisting";
     const info = "Make your business more attractive and unique in the eyes of each of your customers to reach a wider market and build a better business";
   return (
-    <div className='w-full h-screen bg-auto bg-no-repeat mb-20' style={{backgroundImage: `url(${bg_image})`}}>
+    <div id='home' className='w-full h-screen bg-auto bg-no-repeat mb-20' style={{backgroundImage: `url(${bg_image})`}}>
         <NavBar />
         <div className='w-full flex justify-between items-center px-20 py-40'>
             <div className='w-[900px] py-10 pr-20 relative'>

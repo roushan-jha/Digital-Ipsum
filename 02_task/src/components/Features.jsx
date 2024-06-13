@@ -17,7 +17,7 @@ const Features = () => {
       ];
 
   return (
-    <div>
+    <div id='feature'>
         <div className='w-full h-auto flex justify-between text-center items-center px-40 py-12'>
             <div>
                 <p className='text-4xl font-sora font-medium text-orange-500 p-2'>250+</p>

@@ -20,7 +20,7 @@ const Services = () => {
     ];
 
   return (
-    <div className='p-20'>
+    <div id='service' className='p-20'>
         <div className='flex justify-between px-10 py-20'>
             <div className='w-[500px] font-sora font-semibold text-5xl'>
                 We Just Offer The Best Services

@@ -9,7 +9,7 @@ import sm_image from '../assets/sm_image.png'
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
         <div className='bg-slate-100'>
             <div className='flex justify-between items-center px-20 pt-24 pb-12'>
                 <h1 className='w-3/4 font-sora font-semibold text-5xl'>What Our Client Says</h1>
