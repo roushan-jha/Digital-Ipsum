@@ -6,12 +6,14 @@ import ProductPage from './components/ProductPage'
 import BlogPage from './components/BlogPage'
 import AboutPage from './components/AboutPage'
 import ContactPage from './components/ContactPage'
+import ScrollToTop from "./components/Basic/ScrollToTop"
 
 
 function App() {
 
   return (
    <Router>
+    <ScrollToTop />
     <NavBar />
     <Routes>
       <Route path="/" element={<LandingPage />} />

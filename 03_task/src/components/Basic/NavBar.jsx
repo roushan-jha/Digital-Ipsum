@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
   return (
     <div className='w-full h-25 bg-gray-800 text-white flex justify-between items-center pt-12 pb-2 px-28'>
-        <div className='flex justify-center gap-2 items-center'>
+        <Link to={"/"} className='flex justify-center gap-2 items-center'>
             <div className='w-[40px]'>
                 <img src={logo} alt="Logo" />
             </div>
@@ -13,7 +13,7 @@ const NavBar = () => {
                 <span className='text-3xl font-bold'>logo</span>
                 <span className='text-3xl font-normal'>ipsum</span>
             </h1>
-        </div>
+        </Link>
         <div className='flex gap-10 items-center text-xl'>
             <Link to={"/product"}>Products</Link>
             <Link to={"/blog"}>Blog</Link>

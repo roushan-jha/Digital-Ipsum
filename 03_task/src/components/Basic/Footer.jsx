@@ -1,15 +1,16 @@
 import React from 'react'
 import icon_placeholder from "../../assets/Icon Placeholder.png"
 import footer_logo from "../../assets/logo-b.png"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div>
         <div className='flex justify-evenly py-24 px-32 w-full h-[400px]'>
             <div>
-                <div className='py-6'>
+                <Link to={"/"} className='py-6'>
                     <img src={footer_logo} alt="Logo" />
-                </div>
+                </Link>
                 <div>
                     <div className='flex justify-center items-center gap-3 py-3'>
                         <img src={icon_placeholder} alt="Placeholder" />
