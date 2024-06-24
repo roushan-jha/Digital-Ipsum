@@ -21,6 +21,11 @@ function App() {
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/contact/general" element={<ContactPage />} />
+      <Route path="/contact/payment" element={<ContactPage />} />
+      <Route path="/contact/service" element={<ContactPage />} />
+      <Route path="/contact/refund" element={<ContactPage />} />
+      <Route path="/contact/other" element={<ContactPage />} />
     </Routes>
     <Footer />
    </Router>

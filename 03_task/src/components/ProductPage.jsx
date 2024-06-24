@@ -10,6 +10,7 @@ import diamond_icon from "../assets/diamond.png"
 import Button from './Basic/Button'
 import Card from './Basic/Card'
 import FAQs from './Basic/FAQs'
+import TryResources from './Basic/TryResources'
 
 const ProductPage = () => {
 
@@ -153,19 +154,7 @@ const ProductPage = () => {
         <button className='bg-white font-medium text-blue-500 py-4 mt-8 px-10 rounded-lg'>Calculate your investment</button>
       </div>
       <FAQs />
-      <div className='h-screen bg-gray-800 relative'>
-            <div className='w-[72%] bg-gray-400 h-screen'></div>
-            <div className='bg-white w-[500px] flex flex-col justify-center items-center px-10 py-20 rounded-xl absolute top-24 right-32'>
-                <center>
-                    <h1 className='font-semibold text-6xl pb-6'>Wanna try our resource?</h1>
-                </center>
-                <center className='text-lg font-light pb-10 p-4'>What a brand new resource, You can try our resource and explore how it works</center>
-                <div className='flex gap-4'>
-                    <Button svg="checkcircle" text="View on App Store" color="blue" />
-                    <Button svg="chevronright" text="View on Google Play" color="blue" />
-                </div>
-            </div>
-        </div>
+      <TryResources />
     </div>
   )
 }
