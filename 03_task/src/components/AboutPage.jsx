@@ -77,7 +77,7 @@ const AboutPage = () => {
         <div className='flex flex-col items-center'>
           <h1 className='font-semibold text-5xl text-center pt-20 pb-10 opacity-90'>Our Journey</h1>
           <p className='text-center text-lg opacity-80 w-3/4'>SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens from each category.</p>
-          {/* <Timeline /> */}
+          <Timeline />
           <div className='py-20'>
             <img src={rectangle} alt="placeholder" />
           </div>

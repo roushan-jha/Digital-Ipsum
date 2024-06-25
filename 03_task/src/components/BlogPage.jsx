@@ -2,6 +2,7 @@ import React from 'react'
 import BlogCard from './Basic/BlogCard'
 import { SlMagnifier } from 'react-icons/sl'
 import square from '../assets/square.png'
+import PaginateBlogCard from './Basic/PaginateBlogCard'
 
 const BlogPage = () => {
   return (
@@ -13,11 +14,8 @@ const BlogPage = () => {
       <div className='flex gap-20 mt-16'>
         <div className='w-3/5 ml-24'>
           <div className='flex flex-col gap-12'>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+            <PaginateBlogCard />
           </div>
-          <div className='mt-8 w-full flex justify-end'>numbers</div>
         </div>
         <div className='w-2/5 mr-24 flex flex-col gap-20'>
           <div className='flex flex-col gap-2'>
@@ -30,12 +28,12 @@ const BlogPage = () => {
           <div className='flex flex-col gap-3'>
             <h1 className='font-medium'>Categories</h1>
             <div className='text-blue-500 font-medium flex flex-col gap-3'>
-              <p>Artificial Intelligence (3)</p>
-              <p>Augmented Reality (4)</p>
-              <p>Development (10)</p>
-              <p>Startup (5)</p>
-              <p>Technology (12)</p>
-              <p>UI/UX Designs (2)</p>
+              <p className='cursor-pointer'>Artificial Intelligence (3)</p>
+              <p className='cursor-pointer'>Augmented Reality (4)</p>
+              <p className='cursor-pointer'>Development (10)</p>
+              <p className='cursor-pointer'>Startup (5)</p>
+              <p className='cursor-pointer'>Technology (12)</p>
+              <p className='cursor-pointer'>UI/UX Designs (2)</p>
             </div>
           </div>
           <div className='flex flex-col gap-4'>
