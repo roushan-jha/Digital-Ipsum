@@ -1,8 +1,11 @@
+import BottomSection from "./components/BottomSection"
 
 function App() {
 
   return (
-    <div>Hello world</div>
+    <>
+      <BottomSection />
+    </>
   )
 }
 
