@@ -6,7 +6,7 @@ const Home = () => {
     <div className='mt-6 poppins-light p-0'>
         <div className='pt-14 pb-20 mx-32 flex justify-between items-center'>
             <h1 className='w-3/5 font-semibold text-5xl opacity-90 leading-tight'>We are the best technology company agency</h1>
-            <p className='w-2/5 text-lg opacity-80 leading-normal'>We are a full-service digital agency, specializing in modern technology,With the best service and professional people</p>
+            <p className='w-2/5 text-lg opacity-60 leading-normal'>We are a full-service digital agency, specializing in modern technology,With the best service and professional people</p>
         </div>
         <div className='w-full flex'>
             <div className='w-40'>

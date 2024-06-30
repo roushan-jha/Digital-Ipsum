@@ -7,7 +7,7 @@ const BottomSection = () => {
     <div className='mt-16'>
         <div className='py-16 mx-32 flex justify-between items-center'>
             <h1 className='w-3/5 font-semibold text-5xl opacity-90 leading-tight'>Trusted by technology companies</h1>
-            <p className='w-2/5 text-lg opacity-80 leading-normal'>We are trusted by technology companies in the world, because our very satisfactory performance makes them believe in us</p>
+            <p className='w-2/5 text-lg opacity-60 leading-normal'>We are trusted by technology companies in the world, because our very satisfactory performance makes them believe in us</p>
         </div>
         <div className='w-full flex'>
             <div className='w-40 h-full'>
