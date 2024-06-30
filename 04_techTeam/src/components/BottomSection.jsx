@@ -14,7 +14,7 @@ const BottomSection = () => {
                 <div className='h-[80px]'></div>
                 <div className='h-[80px] bg-black opacity-85'></div>
             </div>
-            <div className='w-full h-[160px] flex justify-around items-center px-24 py-12 bg-orange-400'>
+            <div className='w-full h-[160px] flex justify-around items-center px-24 py-12 bg-orange-500'>
                 <div>
                     <img src={sm_image} alt="Placeholder" />
                 </div>
