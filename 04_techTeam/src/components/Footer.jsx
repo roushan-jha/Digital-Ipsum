@@ -24,19 +24,19 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex flex-col gap-8'>
-                    <h1 className='font-medium text-lg opacity-90'>Company</h1>
+                    <h1 className='font-medium text-lg opacity-90'>Support</h1>
                     <div className='flex flex-col opacity-80 gap-6'>
-                        <p>About Us</p>
-                        <p>Portfolio</p>
-                        <p>Testimonial</p>
+                        <p>FAQ</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms of service</p>
                     </div>
                 </div>
                 <div className='flex flex-col gap-8'>
-                    <h1 className='font-medium text-lg opacity-90'>Company</h1>
+                    <h1 className='font-medium text-lg opacity-90'>Social Media</h1>
                     <div className='flex flex-col opacity-80 gap-6'>
-                        <p>About Us</p>
-                        <p>Portfolio</p>
-                        <p>Testimonial</p>
+                        <p>Dribbble</p>
+                        <p>Behance</p>
+                        <p>Instagram</p>
                     </div>
                 </div>
             </div>
