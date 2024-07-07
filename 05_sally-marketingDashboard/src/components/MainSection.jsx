@@ -1,6 +1,8 @@
 import React from 'react'
 import TopBar from './Basic/TopBar'
 import Card from './Basic/Card'
+import WeeklyChart from './Basic/WeeklyChart'
+import ReactCalendar from './Basic/ReactCalander'
 
 const MainSection = () => {
   return (
@@ -14,6 +16,15 @@ const MainSection = () => {
             <Card info="Marketing" color='#06E899' />
             <Card info="Tallin Team" overdue="Overdue" color='#FFDE59' />
             <Card info="Sales" overdue="Overdue" color='#FD3549' />
+        </div>
+        <div className='mt-6 flex gap-6 justify-between'>
+          <div className='w-[31.5%] flex flex-col gap-6'>
+            <WeeklyChart />
+            <ReactCalendar />
+          </div>
+          <div className='w-[68.5%] rounded-xl shadow-md h-screen bg-orange-300'>
+            {/* revenue */}
+          </div>
         </div>
     </div>
   )

@@ -43,7 +43,7 @@ const SideBar = () => {
         </div>
       </div>
       <div className='flex flex-col gap-4 mt-12 text-sm'>
-        <h4 className='px-6'>Seconday</h4>
+        <h4 className='px-6'>Secondary</h4>
         <div className='flex flex-col'>
           <div className='flex justify-start gap-4 py-3 px-6'>
             <Saved />
