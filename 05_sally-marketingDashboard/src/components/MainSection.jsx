@@ -3,6 +3,7 @@ import TopBar from './Basic/TopBar'
 import Card from './Basic/Card'
 import WeeklyChart from './Basic/WeeklyChart'
 import ReactCalendar from './Basic/ReactCalander'
+import RevenueSection from './RevenueSection'
 
 const MainSection = () => {
   return (
@@ -22,8 +23,8 @@ const MainSection = () => {
             <WeeklyChart />
             <ReactCalendar />
           </div>
-          <div className='w-[68.5%] rounded-xl shadow-md h-screen bg-orange-300'>
-            {/* revenue */}
+          <div className='w-[68.5%] rounded-xl shadow-md'>
+            <RevenueSection />
           </div>
         </div>
     </div>
