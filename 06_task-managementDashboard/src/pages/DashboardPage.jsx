@@ -5,7 +5,7 @@ import MainSection from '../components/MainSection';
 
 const DashboardPage = () => {
   return (
-    <div className="flex h-screen">
+    <div className="flex">
       <div className="w-1/5 bg-gray-100">
         <Sidebar />
       </div>
