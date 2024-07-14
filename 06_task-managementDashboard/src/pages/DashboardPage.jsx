@@ -9,7 +9,7 @@ const DashboardPage = () => {
       <div className="w-1/5 bg-gray-100">
         <Sidebar />
       </div>
-      <div className="w-4/5 bg-white">
+      <div className="w-4/5 bg-slate-100">
         <Header />
         <MainSection />
       </div>
