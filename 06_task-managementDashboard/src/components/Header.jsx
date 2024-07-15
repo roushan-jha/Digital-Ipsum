@@ -10,7 +10,7 @@ const Header = () => {
       <div className="relative flex items-center rounded-xl bg-white">
         <input
           type="text"
-          className="px-4 py-3 text-primary border-none rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-sm placeholder-primary placeholder-opacity-50"
+          className="px-4 py-3 text-primary border-none rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-primary placeholder:text-sm placeholder-primary placeholder-opacity-50"
           placeholder="Search Task"
         />
         <div className='absolute right-2 p-2 rounded-lg bg-primary flex items-center justify-center'>
