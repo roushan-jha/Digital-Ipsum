@@ -6,3 +6,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.rbc-time-view {
+    border: none !important;
+}
+
+.rbc-header {
+    padding: 1rem;
+    color: rgb(86, 86, 218);
+    width: 200px !important;
+    border: none !important;
+}
+
+.rbc-event {
+    background: rgb(176, 228, 247) !important;
+    color: black;
+    border: none !important;
+    width: 100% !important;
+}
+
+.rbc-events-container {
+    width: 100% !important;
+}
+
+.rbc-event-label {
+    font-size: xx-small !important;
+    margin-bottom: 6px;
+}
+
+.rbc-event-content {
+    font-size: x-small !important;
+}
+
+
+.rbc-allday-cell {
+    display: none;
+}
+
+.rbc-time-slot {
+    color: #4e9cd1;
+}

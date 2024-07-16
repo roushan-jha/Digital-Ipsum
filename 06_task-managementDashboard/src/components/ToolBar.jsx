@@ -13,8 +13,8 @@ const ToolBar = () => {
                 <IoIosArrowDown />
             </button>
             <div className='flex h-full justify-between items-center p-3 border border-primary rounded-md text-primary'>
-                <div className='border-r border-r-primary pr-2'><FaAngleLeft size={20} /></div>
-                <div className='border-l border-l-primary pl-2'><FaAngleRight size={20} /></div>
+                <button className='border-r border-r-primary pr-2'><FaAngleLeft size={20} /></button>
+                <button className='border-l border-l-primary pl-2'><FaAngleRight size={20} /></button>
             </div>
         </div>
     </div>

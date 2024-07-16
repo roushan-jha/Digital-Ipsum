@@ -22,7 +22,9 @@ const MainSection = () => {
           </div>
         </div>
         <ToolBar />
-        <CalendarSection />
+        <div>
+          <CalendarSection />       
+        </div>
       </div>
       <TaskSection />
     </div>
