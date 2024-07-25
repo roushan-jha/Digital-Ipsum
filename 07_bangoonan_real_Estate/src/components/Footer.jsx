@@ -33,6 +33,7 @@ const Footer = () => {
                 <p>123 Main St. Anytown, USA</p>
                 <p>+1 (555) 555-5555</p>
                 <p>info@bangoonan.com</p>
+                <Link className='hover:text-secondary' to={'/career'}>Carrers</Link>
               </div>
             </div>
           </div>
