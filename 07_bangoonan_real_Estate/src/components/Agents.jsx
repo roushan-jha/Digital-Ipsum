@@ -1,9 +1,9 @@
 import React from 'react'
 import AgentCard from './AgentCard'
 
-const Agents = () => {
+const Agents = ({padding_t, padding_b}) => {
   return (
-    <div className='p-32 font-primary'>
+    <div className={`px-32 ${padding_t || 'pt-32'} ${padding_b || 'pb-32'} font-primary`}>
         <div className='flex flex-col gap-12'>
             <div className='flex justify-between'>
                 <div className='flex flex-col gap-2'>
