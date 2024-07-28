@@ -1,9 +1,9 @@
 import React from 'react'
 import ArrowRight from '../svg/ArrowRight'
 
-const PropertyCard = ({tag}) => {
+const PropertyCard = ({tag, width}) => {
   return (
-    <div className='w-1/4 flex flex-col rounded-xl border-[1px] border-slate-200'>
+    <div className={`${width || 'w-1/4'} flex flex-col rounded-xl border-[1px] border-slate-200`}>
         <div className='w-full relative'>
             <div className='w-full rounded-t-xl h-[200px] bg-primary'></div>
             <div className='absolute top-4 left-4'>
