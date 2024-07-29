@@ -8,6 +8,7 @@ import AgentPage from "./pages/AgentPage"
 import CareerPage from "./pages/CareerPage"
 import ContactPage from "./pages/ContactPage"
 import Footer from "./components/Footer"
+import PropertyDetailsPage from "./pages/PropertyDetailsPage"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/property" element={<PropertyListPage />} />
+        <Route path="/property/:id" element={<PropertyDetailsPage />} />
         <Route path="/service" element={<ServicesPage />} />
         <Route path="/agent" element={<AgentPage />} />
         <Route path="/career" element={<CareerPage />} />

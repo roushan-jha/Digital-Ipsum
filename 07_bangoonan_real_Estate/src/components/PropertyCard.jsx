@@ -1,11 +1,13 @@
 import React from 'react'
 import ArrowRight from '../svg/ArrowRight'
+import PropertyDetailsPage from '../pages/PropertyDetailsPage'
+import { Link } from 'react-router-dom'
 
 const PropertyCard = ({tag, width}) => {
   return (
     <div className={`${width || 'w-1/4'} flex flex-col rounded-xl border-[1px] border-slate-200`}>
         <div className='w-full relative'>
-            <div className='w-full rounded-t-xl h-[200px] bg-primary'></div>
+            <div className='w-full rounded-t-xl h-[200px] cursor-pointer bg-primary'></div>
             <div className='absolute top-4 left-4'>
                 <Tag tag={tag} />
             </div>
