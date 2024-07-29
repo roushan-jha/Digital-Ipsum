@@ -23,11 +23,11 @@ const PropertyCard = ({tag, width}) => {
                 </div>
                 <div className='flex items-center gap-[2px]'>
                     <ArrowRight />
-                    <p className='text-sm'>2 Beds</p>
+                    <p className='text-sm'>2 Baths</p>
                 </div>
                 <div className='flex items-center gap-[2px]'>
                     <ArrowRight />
-                    <p className='text-sm'>2 Beds</p>
+                    <p className='text-sm'>800 sqft</p>
                 </div>
             </div>
         </div>
