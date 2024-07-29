@@ -9,7 +9,7 @@ const Home = () => {
         <div className='w-3/5'>
             <div className='flex flex-col gap-8'>
                 <div className='flex gap-4 items-center'>
-                    <HomeIcon />
+                    <HomeIcon color="#FFD278" />
                     <p className='font-medium'>Bangoonan Real Estate Agent</p>
                 </div>
                 <div className='flex flex-col gap-6'>
